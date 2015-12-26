@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bitter-Regular'), url(https://fonts.gstatic.com/s/bitter/v7/zfs6I-5mjWQ3nxqccMoL2A.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Bitter-Bold'), url(https://fonts.gstatic.com/s/bitter/v7/evC1haE-MsorTl_A7_uSGVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(https://fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGOode0-EuMkY--TSyExeINg.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v9/ODelI1aHBYDBqgeIAH2zlNV_2ngZ8dMf8fLgjYEouxg.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Source Sans Pro Semibold'), local('SourceSansPro-Semibold'), url(https://fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGCOFnW3Jk0f09zW_Yln67Ac.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'), url(https://fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGEo0As1BFRXtCDhS66znb_k.woff2) format('woff2');
+}
+
+
+/* Modal */
+.modal-mask{
+    position:fixed;
+    z-index:9998;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,.9);
+    transition:opacity .3s ease;display:flex;align-items:center
+}
+.modal--medium{
+    width:600px
+}
+.modal--small{
+    width:400px
+}
+.modal-container{
+    margin:0 auto;
+    max-height:90%;
+    overflow-y:auto;
+    background-color:#fff;
+    border-radius:2px;
+    box-shadow:0 2px 8px rgba(0,0,0,.33);
+    transition:all .3s ease;
+    color:#3a3a3a
+}
+.modal-container>*{
+    padding:30px
+}
+.modal-header{
+	background:#133259;
+	color:#fff
+}
+.modal-header h3{
+	margin:0;
+	color:#fff;
+	font-size:21px
+}
+.modal-footer{
+	padding-top:0;
+	margin-bottom:20px;
+	font-size:16px
+}
+.modal-body+.modal-footer{
+	margin-top:-30px
+}
+.modal-enter,.modal-leave{
+	opacity:0
+}
+.modal-enter .modal-container,.modal-leave .modal-container{
+	-webkit-transform:scale(1.1);
+	transform:scale(1.1)
+}
+
+
+.Button .la-ball-fall{width:auto;height:16px}
+
+@media (max-width:1049px){#newsletter-form{clear:both;margin-top:1em}}
+
+.like-reply-form button{vertical-align:middle;color:#c5c5c5;font-size:14px}.like-reply-form button .is-liked,.like-reply-form button:hover{color:#00baf3}.like-reply-form button:focus{outline:0}.like-reply-form button i{font-size:18px}
