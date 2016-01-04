@@ -23,9 +23,9 @@ class Matkul extends Resources\Controller{
 		$this->pagination = new Resources\Pagination();
 
 		$hal = (int)$hal;
-		$limit = 12;
 		$total = count($this->m_matkul->ambilSemuaMatkul());
-
+		$limit = $total;
+		
 		//Matkul
 		$matkul = $this->m_matkul->ambilSemuaMatkulPer($hal, $limit);
 

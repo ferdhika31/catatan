@@ -35,7 +35,7 @@
 
 						<div class="Card__image">
 							<a href="<?php echo $this->location('matkul/detail/'.$temp['id_matkul'].'-'.$temp['tipe_materi']);?>">
-								<img src="<?php echo $asset."img/".$temp['cover'];?>" class="Card__image" alt="DDP">
+								<img src="<?php echo $asset."img/".$temp['cover'];?>" class="Card__image" alt="">
 								<div class="Card__overlay">
 									
 								</div>
@@ -58,7 +58,7 @@
 						endforeach;
 					endif;
 					?>
-
+					
 					<div class="pagination">
 					<?php if($pageLinks):?>
 					    <ul>
@@ -71,7 +71,6 @@
 					    </ul>
 					<?php endif;?>
 					</div>
-
 				</div>
 
 			</div>

@@ -71,9 +71,6 @@ class Daftar extends Resources\Controller{
 		$data['tp'] = $tp;
 		$data['mtkl'] = $matkul;
 
-		// echo $smt." ".$tp;
-		// exit;
-		
 		
 		// Title web
 		$data['heading_title'] = $this->konfig['site_title']." - Daftar Materi";

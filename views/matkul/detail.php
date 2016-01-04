@@ -27,10 +27,11 @@
 
 								<div class="Banner__message">
 									<p>
-									Kode Mata Kuliah : <?php echo $dataMatkul->kode_matkul;?> <br>
-									Dosen Pengajar : <?php echo $dataMatkul->nama_dosen;?> <br>
-									Jumlah SKS : <?php echo $dataMatkul->jumlah_sks;?> <br>
-									Semester : <?php echo $dataMatkul->semester;?>
+										Kode Mata Kuliah : <?php echo $dataMatkul->kode_matkul;?> <br>
+										Dosen Pengajar : <?php echo $dataMatkul->nama_dosen;?> <br>
+										Jumlah SKS : <?php echo $dataMatkul->jumlah_sks;?> <br>
+										Semester : <?php echo $dataMatkul->semester;?> <br>
+										Tahun Ajaran : <?php echo $dataMatkul->tahun;?>
 									</p>
 								</div>
 							</div>
@@ -72,7 +73,7 @@
 				</h2>
 
 				<div class="section Grid__row">
-				<!-- Series Episode List -->
+				<!-- Matkul List -->
 					<div class="outline Grid__column nine centered">
 
 						<ul class="Lesson-List">

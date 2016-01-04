@@ -26,7 +26,7 @@ class M_matkul{
 
 		$query = $this->db->results("SELECT * FROM semester, ((materi INNER JOIN matkul ON materi.matkul_id = matkul.matkul_id) 
 			INNER JOIN minggu ON materi.minggu_id = minggu.minggu_id) INNER JOIN `user` ON materi.user_id = user.user_id 
-			group by materi.matkul_id, materi.tipe_materi limit ".$lim);
+			group by materi.matkul_id, materi.tipe_materi order by rand() DESC limit ".$lim);
 
 		return $query;
 	}
