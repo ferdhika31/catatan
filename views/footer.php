@@ -4,7 +4,9 @@
 				<div class="utility-left">
 					<p class="copyright">Made from my sweet little room, in Bandung.</p>
 					<div class="hosting">
-						&copy; Males Nyatet 2016. All rights reserved. Design by <a href="http://laracasts.com/" target="_blank"> Laracast</a>
+						&copy; Males Nyatet 2016. All rights reserved. 
+						Design by <a href="http://laracasts.com/" target="_blank"> Laracast</a>
+						and Develop by <a href="http://dika.web.id" target="_blank">Ferdhika Yudira</a>.
 					</div>
 				</div>
 
